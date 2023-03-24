@@ -10,6 +10,7 @@ body {
 }
 
 header {
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	background-color: #03045E;
 	padding: 20px;
     text-align: right;
@@ -73,8 +74,16 @@ h1 {
 }
 
 .daora{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	font-size: 18px;
 	line-height: 1.5;
+	line-break: auto;
 	color: #FFFFFF;
 	text-align: justify;
+	padding-right: 80px;
+	padding-left: 20px;
+}
+
+.daora3{
+	padding-right: 20px;
 }
