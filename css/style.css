@@ -1,24 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
 body {
-	background: linear-gradient(to bottom, #00B4D8, #03045E);
+	background: linear-gradient(to bottom, #FFFFFF, #00B4D8, #03045E);
         height: 100vh;
         margin: 0;
+		font-family: 'Source Sans Pro', sans-serif !important;
+		border: 1px black;
 }
 
 .daora2{
 	display: flex;
 	flex-direction: row;
+	text-align: center;
 }
 
 header {
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	background-color: #03045E;
-	padding: 20px;
+	padding: 23px;
     text-align: right;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
 	height: 30px;
+	text-shadow: -1px 1px 3px black,                    
+				  1px 1px 3px black,                  
+			 	  1px 1px 3px black;
 }
 
 header div img{
@@ -58,11 +66,30 @@ nav a {
 	color: #fff;
 	text-decoration: none;
 	font-weight: bold;
+	border: 1px black;
 }
 
-nav a:hover {
-	text-decoration: underline;
-}
+.link-hover {
+	position: relative;
+	text-decoration: none;
+  }
+  
+  .link-hover::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -8px;
+	width: 100%;
+	height: 2px;
+	background-color: white;
+	opacity: 0;
+	transition: opacity 0.2s ease-in-out;
+	border: 1px black;
+  }
+
+  .link-hover:hover::after {
+	opacity: 1;
+  }
 
 main {
 	padding: 20px;
@@ -71,19 +98,25 @@ main {
 h1 {
 	font-size: 36px;
 	color: #FFFFFF;
+	text-shadow:  1px 1px 2px black,                    
+				  1px 1px 2px black,                  
+			 	  1px 1px 2px black;
 }
 
 .daora{
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-	font-size: 18px;
+	font-size: 20px;
 	line-height: 1.5;
 	line-break: auto;
 	color: #FFFFFF;
 	text-align: justify;
 	padding-right: 80px;
 	padding-left: 20px;
+	text-shadow:  1px 1px 2px black,                    
+				  1px 1px 2px black,                  
+			 	  1px 1px 2px black;
 }
 
 .daora3{
 	padding-right: 20px;
+	padding-top: 23px;
 }
