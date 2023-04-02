@@ -2,26 +2,42 @@
 <html>
 <head>
 	<title>Trabalho - Biologia Marinha</title>
-	<link rel="stylesheet" type="text/css" href="/css/style.css">
-	<link rel="icon" href="/imgs/icones/tubarao.png" type="image/png">
+	<script src="../javascript/audio.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="icon" href="../imgs/icones/tubarao.png" type="image/png">
 </head>
 <body>
 	<header> 
 	     <div>
-			<a href="site.html"><img src="/imgs/icones/Group 1.png"></a>
+			<a href="site.html"><img src="../imgs/icones/Group 1.png"></a>
              </div>
 		<nav>
 			<ul>
-				<li><a href="site.html">Home</a></li>
-				<li><a href="especies.html">Espécies Marinhas</a></li>
-				<li><a href="ecossistemas.html">Ecossistemas Aquáticos</a></li>
-				<li><a href="cuidados.html">Cuidados com o meio Ambiente</a></li>
-				<li><a href="contato.html">Contato</a></li>
-			</ul>
+				<li class="link-hover"><a href="site.html" onclick="playAudio()">Página Inicial</a></li>
+				<li class="link-hover"><a href="especies.html" onclick="playAudio()">Espécies Brasileiras</a></li>
+				<li class="link-hover"><a href="ecossistemas.html" onclick="playAudio()">Ecossistemas Marinhos</a></li>
+				<li class="link-hover"><a href="cuidados.html" onclick="playAudio()">Importância do Meio ambiente</a></li>
+				<li class="link-hover"><a href="contato.html" onclick="playAudio()">Contate-nos</a></li>
+			  </ul>
+			  <audio id="bolha">
+				<source src="../audios/bolha.mp3" type="audio/mp3">
+			  </audio>	  
 		</nav>
 	</header>
 	<main>
-		
+		<div class="form-container">
+			<form>
+			  <h2>Formulário de Contato</h2>
+			  <label for="nome">Seu Nome Completo:</label>
+			  <input type="text" id="nome" name="nome" required placeholder="Márcio Santos">
+			  <label for="email">Seu Melhor Email:</label>
+			  <input type="email" id="email" name="email" required placeholder="email@exemplo.com">
+			  <label for="mensagem">Sua Mensagem:</label>
+			  <textarea id="mensagem" name="mensagem" required placeholder="Deixe aqui sua dúvida, crítica, dica ou uma mensagem para nós!"></textarea>
+			  <button type="submit">Enviar</button>
+			</form>
+		  </div>
+		  
 	</main>
 </body>
 </html>

@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
 body {
-	background: linear-gradient(to bottom, #FFFFFF, #00B4D8, #03045E);
+	background: linear-gradient(to bottom, #FFFFFF, #00B4D8, #03045E) !important;
         height: 100vh;
         margin: 0;
 		font-family: 'Source Sans Pro', sans-serif !important;
@@ -120,3 +120,144 @@ h1 {
 	padding-right: 20px;
 	padding-top: 23px;
 }
+.form-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 200px;
+  }
+  
+  form {
+	font-family: 'Source Sans Pro', sans-serif !important;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #00B4D8;
+	border-radius: 10px;
+	padding: 30px;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+	text-shadow:  1px 1px 2px black,                    
+				  1px 1px 2px black,                  
+			 	  1px 1px 2px black;
+  }
+  
+  h2 {
+	margin-bottom: 20px;
+  }
+  
+  label {
+	margin-bottom: 10px;
+	font-family: 'Source Sans Pro', sans-serif !important;
+	color: white;
+	text-shadow:  1px 1px 2px black,                    
+				  1px 1px 2px black,                  
+			 	  1px 1px 2px black;
+  }
+  
+  input, textarea {
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	width: 100%;
+  }
+  
+  button {
+	background-color: #007bff;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+  }
+  
+  button:hover {
+	background-color: #0062cc;
+  }
+
+  .table-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+	color: white;
+	text-shadow:  1px 1px 2px black,                    
+				  1px 1px 2px black,                  
+			 	  1px 1px 2px black;
+  }
+  
+  table {
+	border-collapse: collapse;
+	width: 80%;
+  }
+  
+  th, td {
+	text-align: left;
+	padding: 8px;
+	border-bottom: 1px solid #ddd;
+  }
+  
+  tr:hover {
+	background-color: #023E8A;
+  }
+  
+  th {
+	background-color: #03045E;
+	color: white;
+  }
+  
+  img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+  
+  .imagem {
+	float: left;
+	margin-right: 20px;
+  }
+  
+  .texto {
+	float: right;
+	width: 50%;
+  }
+
+  .sub {
+	color: white;
+	text-shadow:  1px 1px 2px black,                    
+				  1px 1px 2px black,                  
+			 	  1px 1px 2px black;
+	font-family: 'Source Sans Pro', sans-serif;
+  }
+
+  .texto-com-fundo {
+	background-image: url(../imgs/0b91b591dbd426d0c244cbf0c46d3f35-reciclagem-icon-svg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-blend-mode: multiply;
+	color: white;
+	text-shadow:  1px 1px 2px black,                    
+				  1px 1px 2px black,                  
+			 	  1px 1px 2px black;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: justify;
+  }
+
+  img{
+	opacity: 70%;
+  }
+
+  video {
+	width: auto;
+	height: 600px;
+  }
+  
