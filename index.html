@@ -1,11 +1,39 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Minha página de teste</title>
-  </head>
-  <body>
-    
-  </body>
+<head>
+	<title>Trabalho - Biologia Marinha</title>
+	<script src="../javascript/audio.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="icon" href="../imgs/icones/tubarao.png" type="image/png">
+</head>
+<body>
+	<audio id="bolha">
+		<source src="../audios/bolha.mp3" type="audio/mp3">
+	  </audio>	
+	<header> 
+	     <div>
+			<a href="site.html"><img src="../imgs/icones/Group 1.png"></a>
+             </div>
+		<nav>
+			<ul>
+				<li class="link-hover"><a href="site.html" onclick="playAudio()">Página Inicial</a></li>
+				<li class="link-hover"><a href="especies.html" onclick="playAudio()">Espécies Brasileiras</a></li>
+				<li class="link-hover"><a href="ecossistemas.html" onclick="playAudio()">Ecossistemas Marinhos</a></li>
+				<li class="link-hover"><a href="cuidados.html" onclick="playAudio()">Importância do Meio ambiente</a></li>
+				<li class="link-hover"><a href="contato.html" onclick="playAudio()">Contate-nos</a></li>
+			  </ul>
+			  <audio id="myAudio">
+				<source src="../audios/bolha.mp3" type="audio/mp3">
+			  </audio>	  
+		</nav>
+	</header>
+	<main>
+		<h1 style="padding-left: 300px;">Introdução a Biologia Marinha</h1>
+		<div class="daora2">
+			<p class="daora">A Biologia Marinha se dedica ao estudo dos ecossistemas de água salgada. Entre esses ambientes estão incluídos não apenas os oceanos e os mares que primeiramente vem a nossa mente mas também mangues, costões, recifes, estuários, atóis e muitos outros lugares onde podem ser encontrada a vida. O Biólogo Marinho, portanto, estuda os ecossistemas de água salgada, os seres vivos que lá habitam e, principalmente, as relações entre eles e o ambiente. Esse estudo pode ser marcado por grandes descobertas: basta lembrar que cerca de 70% da superfície do nosso planeta é coberta por oceanos.<br><br> Assim, a biodiversidade dos organismos marinhos é muito alta e a cada dia os pesquisadores descobrem espécies que ainda eram desconhecidas pela ciência. Vale ressaltar que embora a diversidade nesses biomas seja muito grande, ela é pouco conhecida em relação aos seres vivos terrestres.<br><br> Ao lado está o vídeo do Professor Douglas Peiró, que aborda o tema de uma forma mais geral e completa.</p>
+			<div class="daora3">
+			<iframe style="border: 5px solid #03045E;" width="750" height="500" src="https://www.youtube.com/embed/ix6WjDDPZdM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		</div>
+	</main>
+</body>
 </html>
