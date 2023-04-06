@@ -242,8 +242,7 @@ h1 {
   .texto-com-fundo {
 	background-image: url(../imgs/0b91b591dbd426d0c244cbf0c46d3f35-reciclagem-icon-svg.png);
 	background-repeat: no-repeat;
-	background-position: center;
-	background-blend-mode: multiply;
+	background-position: top;
 	color: white;
 	text-shadow:  1px 1px 2px black,                    
 				  1px 1px 2px black,                  

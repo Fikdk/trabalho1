@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trabalho - Biologia Marinha</title>
+	<script src="../javascript/audio.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="icon" href="../imgs/icones/tubarao.png" type="image/png">
+</head>
+<body>
+	<audio id="bolha">
+		<source src="../audios/bolha.mp3" type="audio/mp3">
+	  </audio>	
+	<header> 
+	     <div>
+			<a href="site.html"><img src="../imgs/icones/Group 1.png"></a>
+             </div>
+		<nav>
+			<ul>
+				<li class="link-hover"><a href="site.html" onclick="playAudio()">Página Inicial</a></li>
+				<li class="link-hover"><a href="especies.html" onclick="playAudio()">Espécies Brasileiras</a></li>
+				<li class="link-hover"><a href="ecossistemas.html" onclick="playAudio()">Ecossistemas Marinhos</a></li>
+				<li class="link-hover"><a href="cuidados.html" onclick="playAudio()">Importância do Meio ambiente</a></li>
+				<li class="link-hover"><a href="contato.html" onclick="playAudio()">Contate-nos</a></li>
+			  </ul>
+			  <audio id="myAudio">
+				<source src="../audios/bolha.mp3" type="audio/mp3">
+			  </audio>	  
+		</nav>
+	</header>
+	<main  style="display: flex; justify-content: center; padding-top: 100px;">
+        <form style="width: 400px;"
+          action="https://formspree.io/f/xvonvpgg" method="POST">
+          <label>
+            Seu Nome:
+            <input type="nome" name="nome" style="width: 400px;">
+          </label>
+          <label>
+            Seu Telefone:
+            <input type="telephone" name="telefone" style="width: 400px;">
+          </label>
+          <label>
+            Seu melhor Email:
+            <input type="email" name="email" style="width: 400px;">
+          </label>  
+          <label style="text-align: center;">
+            Deseja ser parte da população que salva nosso planeta?<br><br>
+            Sim :)<input style="width: 30px;" type="checkbox" name="newsletter" value="sim">
+            Não :(<input style="width: 30px;" type="checkbox" name="newsletter" value="nao">
+          </label>
+          <button type="enviar">Enviar</button>
+        </form>
+	</main>
+</body>
+</html>
